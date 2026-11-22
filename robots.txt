@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://creatorakshay-301.github.io/24hrlifefoundation/sitemap.xml
