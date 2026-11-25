@@ -13,6 +13,8 @@
 @keyframes preamble-ticker{from{transform:translateX(0)}to{transform:translateX(-50%)}}
 @media(prefers-reduced-motion:reduce){.ticker__track{width:100%;animation:none;transform:none}.ticker__text{white-space:normal;text-align:center;padding:0 1.25rem}.ticker__text[aria-hidden=true]{display:none}}
 
+.leadership-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:20px}.leadership-grid .founder-card{width:100%;max-width:none;min-height:193px;padding:24px;gap:18px}.leadership-grid .founder-monogram{width:72px;height:72px;flex:0 0 72px;font-size:21px}.leadership-grid .founder-card h2{font-size:24px}.leadership-grid .founder-card .eyebrow{font-size:8px}@media(max-width:820px){.leadership-grid{grid-template-columns:1fr}.leadership-grid .founder-card{min-height:0}}@media(max-width:540px){.leadership-grid .founder-card{align-items:flex-start;padding:22px;gap:15px}.leadership-grid .founder-monogram{width:62px;height:62px;flex-basis:62px;font-size:18px}.leadership-grid .founder-card h2{font-size:22px}}
+
 .work-gallery-section{background:#f7faf8}
 .work-photo-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
 .work-photo-grid figure{margin:0;overflow:hidden;border:1px solid var(--line);border-radius:14px;background:#fff}
